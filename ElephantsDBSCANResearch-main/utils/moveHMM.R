@@ -53,7 +53,7 @@ m
 
 head(data)
 
-register_google(key = "AIzaSyBn8AU_idp-Ply-XMz0rlWr_A8agvf6Rwo")
+register_google(key = "")
 
 lldata <- data.frame(ID=data$event.id,x=data$x, y=data$y)
 head(lldata)
